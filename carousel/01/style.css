@@ -1,0 +1,29 @@
+.item {
+    display: flex;
+    justify-content: space-around;
+    flex: 0 0 80%;
+    border: 1px solid #cbd5e0;
+    font-size: 2.25rem;
+    height: 12rem;
+    margin: 2rem 0;
+    scroll-snap-align: center;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    width: 100%;
+    /*  */
+    overflow-x: scroll;
+    overflow-y: hidden;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+/* Reset body styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
