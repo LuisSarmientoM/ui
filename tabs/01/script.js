@@ -3,7 +3,7 @@ const activeSection = document.querySelector(hash);
 const container = document.querySelector(".tab-content-wrapper");
 const sections = container.querySelectorAll("section[id]");
 
-container.scrollTo(0, activeSection.offsetTop - 50);
+container.scrollTo(0, activeSection.offsetTop - 70);
 
 container.addEventListener("scroll", navHighlighter);
 const tabActive = document.querySelector('.tabs_active');
